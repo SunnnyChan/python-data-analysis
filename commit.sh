@@ -7,4 +7,6 @@ github() {
    git config core.ignorecase false
    git $@
 }
+
+cp /Users/sunny/WorkPlace/jupyter/data/Jupyter-Python-Data-Analysis-Basics.ipynb  .
 github add . && github commit -m "sunnychan" && github push
